@@ -1,0 +1,10 @@
+insert into "item" (id, link) values (default, '');
+insert into "item" (id, link) values (default, '');
+insert into "item" (id, link) values (default, '');
+insert into "item" (id, link) values (default, '');
+insert into "item" (id, link) values (default, '');
+insert into "item" (id, link) values (default, '');
+insert into "item" (id, link) values (default, '');
+insert into "item" (id, link) values (default, '');
+insert into "item" (id, link) values (default, '');
+insert into "item" (id, link) values (default, '');

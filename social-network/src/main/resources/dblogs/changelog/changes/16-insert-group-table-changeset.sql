@@ -1,0 +1,10 @@
+insert into "group" (id, name, private, id_admin) values (default, 'group1', false, 8);
+insert into "group" (id, name, private, id_admin) values (default, 'group2', true, 1);
+insert into "group" (id, name, private, id_admin) values (default, 'group3', false, 3);
+insert into "group" (id, name, private, id_admin) values (default, 'group4', true, 3);
+insert into "group" (id, name, private, id_admin) values (default, 'group5', true, 5);
+insert into "group" (id, name, private, id_admin) values (default, 'group6', true, 8);
+insert into "group" (id, name, private, id_admin) values (default, 'group7', true, 6);
+insert into "group" (id, name, private, id_admin) values (default, 'group8', true, 3);
+insert into "group" (id, name, private, id_admin) values (default, 'group9', true, 7);
+insert into "group" (id, name, private, id_admin) values (default, 'group10', false, 10);

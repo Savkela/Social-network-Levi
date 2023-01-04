@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <include file="dblogs/changelog/changes/1-create-user-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/1.1-create-role-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/1.2-create-user_roles-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/2-create-group-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/3-create-post-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/4-create-item-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/5-create-comment-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/6-create-event-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/7-create-mute-group-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/8-create-request-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/9-create-member-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/10-create-friend-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/11-create-member-event-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/12-create-address-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/13-create-hidden-from-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/29-create-post-item-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/30-create-confirmation-token-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/31-create-api-key-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/14-add-constraints-changeset.sql"/>
+
+    <!-- Inserting random test data into db -->
+    <include file="dblogs/changelog/changes/15-insert-user-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/16-insert-group-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/17-insert-post-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/18-insert-item-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/19-insert-comment-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/20-insert-mute-group-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/21-insert-member-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/22-insert-address-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/23-insert-event-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/24-insert-friend-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/25-insert-member-event-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/26-insert-request-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/27-insert-role-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/28-insert-hidden-from-table-changeset.sql"/>
+    <include file="dblogs/changelog/changes/32-insert-api-key-table-changeset.sql"/>
+</databaseChangeLog>
+

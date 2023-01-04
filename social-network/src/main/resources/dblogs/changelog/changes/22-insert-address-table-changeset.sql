@@ -1,0 +1,10 @@
+insert into "address" (id, country, city, street, number) values (default, '', '', '', 50);
+insert into "address" (id, country, city, street, number) values (default, '', '', '', 61);
+insert into "address" (id, country, city, street, number) values (default, '', '', '', 18);
+insert into "address" (id, country, city, street, number) values (default, '', '', '', 98);
+insert into "address" (id, country, city, street, number) values (default, '', '', '', 3);
+insert into "address" (id, country, city, street, number) values (default, '', '', '', 81);
+insert into "address" (id, country, city, street, number) values (default, '', '', '', 8);
+insert into "address" (id, country, city, street, number) values (default, '', '', '', 95);
+insert into "address" (id, country, city, street, number) values (default, '', '', '', 94);
+insert into "address" (id, country, city, street, number) values (default, '', '', '', 70);

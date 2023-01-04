@@ -1,0 +1,1 @@
+insert into "hidden_from" (id_post, id_user) values (3, 1);
